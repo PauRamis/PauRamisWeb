@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(43, 47, 228);
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 140%;
+  padding: 20px 19px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: rgb(18, 21, 167);
+  color: white;
+}
+
+ul.navbar li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.navbar li.right,
+  ul.navbar li {
+    float: none;
+  }
+}
+
+main > section:not(:target) {
+    display: none;
+}
+
+h1{
+    padding-left: 2%;
+}
+h2{
+    padding-left: 4%;
+}
+p{
+    padding-left: 4%;
+    padding-right: 4%;
+}
