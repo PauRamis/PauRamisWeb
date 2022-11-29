@@ -39,10 +39,6 @@ ul.navbar li.right {
   }
 }
 
-main > section:not(:target) {
-    display: none;
-}
-
 h1{
     padding-left: 2%;
 }
@@ -52,4 +48,22 @@ h2{
 p{
     padding-left: 4%;
     padding-right: 4%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+  color: black;
 }
