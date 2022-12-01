@@ -7,7 +7,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(43, 47, 228);
+  background-color: rgb(47, 47, 49);
 }
 
 ul.navbar li {
@@ -16,7 +16,7 @@ ul.navbar li {
 
 ul.navbar li a {
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 140%;
   padding: 20px 19px;
@@ -24,7 +24,7 @@ ul.navbar li a {
 }
 
 ul.navbar li a:hover {
-  background-color: rgb(18, 21, 167);
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
