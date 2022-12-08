@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  font-family: 'Alef';font-size: 22px;
+  background-color: rgb(44, 44, 44);
+  color: white;
 }
 
 ul.navbar {
@@ -7,7 +10,13 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(47, 47, 49);
+  background-color: rgb(20, 20, 20);
+}
+
+ul {
+  display: list-item;
+  color: rgb(255, 255, 255);
+  padding-left: 6%;
 }
 
 ul.navbar li {
@@ -15,6 +24,7 @@ ul.navbar li {
 }
 
 ul.navbar li a {
+  font-family: 'Alatsi';font-size: 22px;
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -25,7 +35,6 @@ ul.navbar li a {
 
 ul.navbar li a:hover {
   background-color: rgb(0, 0, 0);
-  color: white;
 }
 
 ul.navbar li.right {
@@ -41,29 +50,28 @@ ul.navbar li.right {
 
 h1{
     padding-left: 2%;
+    font-family: 'Aldrich';font-size: 52px;
 }
 h2{
     padding-left: 4%;
+    font-family: 'Aldrich';font-size: 32px;
+}
+h3{
+  padding-left: 4%;
+  font-family: 'Aldrich';font-size: 18px;
 }
 p{
     padding-left: 4%;
     padding-right: 4%;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
 }
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-github {
-  color: black;
+img{
+  max-width: 90%;
+  height: auto;
 }
