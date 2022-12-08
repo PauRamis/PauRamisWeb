@@ -74,4 +74,19 @@ aside {
 img{
   max-width: 90%;
   height: auto;
+  border-radius: 50%;
+}
+
+.center{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
