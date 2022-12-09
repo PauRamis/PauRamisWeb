@@ -92,3 +92,6 @@ img{
   padding-left: 0%;
 }
 
+.link:hover{
+color: rgb(240, 240, 240);
+}
