@@ -83,6 +83,11 @@ img{
   text-align: center;
 }
 
+.center article h2{
+  padding-left: 0%;
+}
+
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
