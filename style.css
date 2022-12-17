@@ -84,10 +84,20 @@ aside {
   margin-left: 15px;
   float: right;
 }
-img{
+
+section{
+  padding-left: 5%;
+}
+.perfil{
   max-width: 90%;
   height: auto;
   border-radius: 50%;
+}
+
+img{
+  width: 500px;
+  height: 250px;
+  border-radius: 2%;
 }
 
 .center{
