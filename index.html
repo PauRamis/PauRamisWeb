@@ -13,9 +13,14 @@
 </head>
 
 <body>
-  <header>
-      <nav-bar></nav-bar>
-    </header>
+  <header id="navbar-container"></header>
+      <script>
+        fetch("navbar.html")
+          .then(res => res.text())
+          .then(data => {
+            document.getElementById("navbar-container").innerHTML = data;
+          });
+      </script>
   <main>
     <aside>
       <img class="perfil" src="/img/perfil.jpg" alt="fotoPerfil">

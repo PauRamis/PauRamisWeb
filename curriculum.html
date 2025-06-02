@@ -15,9 +15,14 @@
 </head>
 
 <body>
-  <header>
-      <nav-bar></nav-bar>
-    </header>
+  <header id="navbar-container"></header>
+      <script>
+        fetch("navbar.html")
+          .then(res => res.text())
+          .then(data => {
+            document.getElementById("navbar-container").innerHTML = data;
+          });
+      </script>
   <main>
     <h1>El meu curriculum</h1>
     <article>
