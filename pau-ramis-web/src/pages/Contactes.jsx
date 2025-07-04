@@ -2,7 +2,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 function Contactes() {
   return (
-    <main style={{ padding: '1rem' }}>
+    <main>
       <h1>Per contactar amb mi:</h1>
       <section class="center">
         <article>
